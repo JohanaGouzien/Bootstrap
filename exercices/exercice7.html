@@ -16,7 +16,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+<H1>Exercice 7</H1>
         <div class="card m-3 border-dark " style="width: 30rem;">
             <div class="card-body text-center ">
               <h4 class="card-title">La Manu Le Havre</h4>
@@ -24,7 +24,7 @@
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">+ d'infos</button>
             </div>
           </div>
-
+<!--Inclure un button pour déclencher l'ouverture de la fenêtre Ligne24-->
         <div class="modal" id="modal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -33,6 +33,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
+                        
                         </div>
                             <div class="modal-body text-center bg-primary">
                             <a href="https://lamanu.fr/le-havre">
@@ -43,6 +44,46 @@
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">X Fermer</button>
                             </div>  
                     </div>   
+                </div>
+            </div>
+        </div>
+
+        <!--Corrigé de l'exercice 7-->
+        <!--Les trois premières lignes = structure de base-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h2> La Manu Le Havre</h2>
+                            <p>L'école des métiers du numérique</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exempleModal">+ d'infos</button>
+
+                            <div class="modal fade" id="exempleModal" tabindex=(-1) role="dialog" aria-labelledby="exempleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title" id="exempleModalLabel">La Manu Le Havre</h2>
+                                            <button type="button" class="close" aria-label="fermer" data-dismiss="modal">
+                                            <span aria-hidden="true">&times;</span>
+                                            <!-- Le &times; permet d'afficher une croix pour fermer-->
+                                            </button>
+                                        </div>
+                                        <div class="modal-body bg-primary">
+                                            <p>https://lamanu.fr/le-havre</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">&times; Fermer</button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
